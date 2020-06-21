@@ -6,11 +6,34 @@ body{
 }
 
 .header{
-	max-width: 1920px;
 	background: #e4f;
 	margin: 0 auto;
     display: flex;
     flex-direction: row;
-    height: 20%;
-    align-content: flex-end;
+    height: 50px;
+}
+
+.header .loggo{
+    display: flex;
+    flex-direction: row;
+}
+
+.header .loggo .title{
+    text-align: center;
+    font-size: 2em;
+    color: black;
+}
+
+.header .loggo .image{
+    width: 50px;
+    height: 50px;
+}
+
+.header .play-button{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user{
+
 }

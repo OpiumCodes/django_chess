@@ -7,7 +7,7 @@ def play(request):
     return HttpResponse("Play")
 
 def login(request):
-    return HttpResponse("Login")
+    return render(request,'accounts/login.html')
 
 def register(request):
     return HttpResponse("register")

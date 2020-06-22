@@ -11,6 +11,7 @@ body{
     display: flex;
     flex-direction: row;
     height: 50px;
+    justify-content: space-between;
 }
 
 .header .loggo{
@@ -21,7 +22,9 @@ body{
 .header .loggo .title{
     text-align: center;
     font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
+    align-self: center;
 }
 
 .header .loggo .image{
@@ -30,10 +33,28 @@ body{
 }
 
 .header .play-button{
-    margin-left: auto;
-    margin-right: auto;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: royalblue;
+    border: black 1px solid;
+    border-radius: 5px;
 }
 
-.user{
+.header .user {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 10px;
+}
 
+.header .user .username{
+    font-size: larger;
+}
+
+.header .user .log-out-button{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: royalblue;
+    border: black 1px solid;
+    border-radius: 5px;
 }

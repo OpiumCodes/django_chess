@@ -5,5 +5,11 @@
         <img class="image" src="{% static 'img/queenb.png' %}" alt="Logo Duchess">
         <div class="title">Duchess</div>
     </div>
-    <button class="play-button">Play</button>
+    <button class="play-button" onclick="location.href='{% url 'play' %}'">Play</button>
+    <div class="user">
+        <div class="username">
+            Logged as: Dughall
+        </div>
+        <button class="log-out-button">Log out</button>
+    </div>
 </div>

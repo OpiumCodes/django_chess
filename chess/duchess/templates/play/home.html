@@ -4,5 +4,12 @@
 </head>
 <body>
     {% include 'play/header.html' %}
+    <tr>
+    {% for game in games %}
+        <td>
+            {{game.player1}} vs {{game.player2}} 
+            <br>
+        </td>
+    {% endfor %}
 </body>
 </html>
